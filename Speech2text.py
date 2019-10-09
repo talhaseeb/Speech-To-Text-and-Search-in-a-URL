@@ -5,7 +5,7 @@ r1 = sr.Recognizer()
 r2 = sr.Recognizer()
 
 with sr.Microphone() as source:
-    print('[say video to search on youtube')
+    print('[SAY VIDEO TO SEARCH ON YOUTUBE]')
     print('speak now')
     audio = r2.listen(source)
 
